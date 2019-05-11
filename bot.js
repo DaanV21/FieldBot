@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '/info') {
+    if (message.content === 'info') {
     	message.reply('Sollicitatie's zijn momenteel gesloten.');
   	}
 });
