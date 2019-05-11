@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'info') {
-    	message.reply('https://github.com/DaanV21/FieldBot/editmaster/bot.js');
+    if (message.content === '!info') {
+    	message.reply('Sollicitatie's zijn momenteel gesloten.');
   	}
 });
 
