@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('Solliciteren is momenteel niet mogelijk.');
+    if (message.content === 'info') {
+    	message.reply('De Sollicitatie's zijn momenteel gesloten.');
   	}
 });
 
