@@ -18,8 +18,8 @@ break;
 case 'website':
 message.channel.sendMessage('**Dit commando is momenteel niet in gebruik.**')
     break;
-case 'serverstatus':
-message.channel.sendMessage('**Aan dit commando wordt nog gewerkt, onze excuses voor het ongemak.**')
+case 'status':
+message.channel.sendMessage('**De server status is momenteel: Online!**')
     break;
 case 'clear':
     if(!args[1]) return message.reply('Error: Geef aan hoeveel berichten er moeten worden verwijderd.')
