@@ -22,7 +22,7 @@ case 'status':
 message.channel.sendMessage('**De server status is momenteel: Online!**')
     break;
 case 'clear':
-    if(!args[1]) return message.reply('Error: Geef aan hoeveel berichten er moeten worden verwijderd.')
+    if(!args[1]) return message.reply('**Foutmelding: Geef aan hoeveel berichten er moeten worden verwijderd.**')
     message.channel.bulkDelete(args[1]);
     break;
     }
