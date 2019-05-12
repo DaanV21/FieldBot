@@ -19,7 +19,7 @@ case 'website':
 message.channel.sendMessage('**Dit commando is momenteel niet in gebruik.**')
     break;
 case 'serverstatus':
-message.channel.sendMessage('**De server is momenteel **')
+message.channel.sendMessage('**De server is momenteel online! **')
     break;
 case 'clear':
     if(!args[1]) return message.reply('Error: Geef aan hoeveel berichten er moeten worden verwijderd.')
