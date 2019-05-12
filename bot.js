@@ -5,11 +5,10 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if (message.content === 'info') {
-    	message.reply('Solliciteren is momenteel niet mogelijk.');
-  	}
-});
-
+client.on('message', msg=>{
+    if(msg.content === '!info'){
+        msg.reply('Er is momenteel geen informatie beschikbaar.');
+    }
+})
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
