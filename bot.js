@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg=>{
-    if(msg.content === '!info'){
+    if(msg.content === '/info'){
         msg.reply('Er is momenteel geen informatie beschikbaar.');
     }
 })
