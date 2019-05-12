@@ -3,8 +3,6 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    bot.user.setActivity('Minetopia');
-
 });
 
 client.on('message', msg=>{
