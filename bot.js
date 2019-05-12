@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const PREFIX = '/';
 
 client.on('ready', () => {
-    console.log('I am ready!');
+    console.log('Starting up.. Done');
 });
    
 client.on('message', message=>{
@@ -19,7 +19,7 @@ case 'website':
 message.channel.sendMessage('**Dit commando is momenteel niet in gebruik.**')
     break;
 case 'serverstatus':
-message.channel.sendMessage('**De server is momenteel online! **')
+message.channel.sendMessage('**Aan dit commando wordt nog gewerkt, onze excuses voor het ongemak.**')
     break;
 case 'clear':
     if(!args[1]) return message.reply('Error: Geef aan hoeveel berichten er moeten worden verwijderd.')
