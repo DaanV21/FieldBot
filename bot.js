@@ -9,7 +9,7 @@ client.on('message', message=>{
    
     client.on('message', msg=>{
     if(msg.content === '/info'){
-        msg.reply('Er is momenteel geen informatie beschikbaar.');
+        msg.reply('**Er is momenteel geen informatie beschikbaar.**');
     }
 });
     
