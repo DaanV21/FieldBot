@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    bot.user.setActivity('The Server', { type: 'WATCHING'}).catch(console.error);
+    client.user.setActivity('The Server', { type: 'WATCHING'}).catch(console.error);
 });
 
 client.on('message', msg=>{
