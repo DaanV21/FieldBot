@@ -38,7 +38,6 @@ case 'serverinfo':
         .setFooter('Field © - 2019')
         message.channel.sendEmbed(embed);
 break;
-    
     }
     });
     
