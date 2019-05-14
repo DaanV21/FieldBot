@@ -29,7 +29,7 @@ case 'clear':
     
     switch(args[0]){
 case 'serverinfo':
-        const embed = new Discord.RichEmbed()
+const embed = new Discord.RichEmbed()
         .setTitle('Server Informatie')
         .addField('Server Naam', message.guild.name, true)
         .addField('Versie', version, true)
