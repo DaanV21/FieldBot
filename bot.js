@@ -26,6 +26,19 @@ case 'clear':
     message.channel.bulkDelete(args[1]);
     break;
     }
+    
+    switch(args[0]){
+case 'serverinfo':
+        const embed = new Discord.RichEmbed()
+        .setTitle('Server Informatie')
+        .addField('Server Naam', message.guild.name, true)
+        .addField('Versie', version, true)
+        .setColor(0x3498DB)
+        .setThumbnail(message.author.avatarURL)
+        .setFooter('Field © - 2019')
+        message.channel.sendEmbed(embed);
+break;
+    }
     });
     
 // THIS  MUST  BE  THIS  WAY
